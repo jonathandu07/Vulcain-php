@@ -1,0 +1,14 @@
+@mixin button_A {
+    display: block;
+    width: 90%;
+    height: 70%;
+    background-color: $RV;
+    color: $BG;
+    border-radius: $buttonCardRadius;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15%;
+    font-size: $SCardH2Size;
+}

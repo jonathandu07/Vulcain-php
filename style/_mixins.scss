@@ -1,0 +1,74 @@
+@import "./mixins/button_A.scss";
+// ############################
+
+@import "./mixins/boxShadowCard.scss";
+
+// ############################
+
+@import "./mixins/secteur_cards.scss";
+
+// ############################
+
+@mixin centrer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// ############################
+
+@mixin topCentrer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+// ############################
+
+@mixin alignRowJustify {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+// ############################
+
+@import "./mixins/divDomaineCards.scss";
+
+@mixin h1SpecialPage {
+    color: $GX;
+    font-size: $SCardH2Size;
+    margin-top: 20%;
+}
+
+// ############################
+
+@import "./mixins/registerInputs.scss";
+
+// ############################
+
+@mixin imageBanner {
+    height: 4vw;
+    margin-left: 1vw;
+}
+
+
+// ############################
+
+@mixin textBanner {
+    @include topCentrer;
+    font-size: $SCardH2Size;
+    margin-left: 4vw;
+}
+
+@mixin glashMorphismForm {
+    /* From https://css.glass */
+    background: rgba(247, 247, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+}
+
+@mixin shadowForm {
+    -webkit-box-shadow: 5px 4px 50px -20px #000000;
+    box-shadow: 5px 4px 50px -20px #000000;
+}

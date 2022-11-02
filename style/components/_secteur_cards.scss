@@ -1,0 +1,45 @@
+.main-home-disconnect__article {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    color: $NNAC;
+    margin-top: 4vw;
+
+    &__card-primaire {
+        @include secteur_cards;
+    }
+
+    //#####################################################""
+    // secondaire
+
+    &__card-secondaire {
+        @include secteur_cards;
+    }
+
+    //#####################################################""
+    // tertiaire
+
+
+    &__card-tertiaire {
+        @include secteur_cards;
+    }
+}
+
+#middle-secteur-card {
+    height: $heightImageCard;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#textSecteurCard {
+    width: 90%;
+    text-align: start;
+    font-size: $textSize;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
